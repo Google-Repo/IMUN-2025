@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@font-face {
+  font-family: "times";
+  src: url("./fonts/times.ttf");
+}
+@font-face {
+  font-family: "Antonio";
+  src: url("./fonts/Antonio-VariableFont_wght.ttf");
+}
+.antonio{
+  font-family: "Antonio";
+}
+.font-times {
+  font-family:  "times", serif;
+}
+body{
+  font-family:  "times", serif;
+
+}
+
+p{
+  font-family:  "roboto";
+  
+}
+
+h1,h2,h3,h4{
+  font-family:  "times", serif;
+
+}
