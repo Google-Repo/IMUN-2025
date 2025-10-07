@@ -70,7 +70,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link to="/photowall" className="text-white hover:text-blue-300 text-lg transition">
-              Photo Sphere
+              Photo Wall
             </Link>
           </li><li>
             <Link to="/participate" className="text-white hover:text-blue-300 text-lg transition">
