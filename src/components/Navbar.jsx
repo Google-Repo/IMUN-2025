@@ -120,7 +120,7 @@ export default function Navbar() {
               <Link to="/participate" className="text-white text-3xl" onClick={handleBurgerClick}>Participate</Link>
             </li>
              <li>
-              <Link to="/photowall" className="text-white text-3xl" onClick={handleBurgerClick}>Photo Sphere</Link>
+              <Link to="/photowall" className="text-white text-3xl" onClick={handleBurgerClick}>Photo Wall</Link>
             </li>
              <li>
               <Link to="/participate" className="text-white text-3xl" onClick={handleBurgerClick}>Leader Board</Link>
