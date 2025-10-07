@@ -137,8 +137,8 @@ export default function DomeGallery({
   enlargeTransitionMs = DEFAULTS.enlargeTransitionMs,
   segments = DEFAULTS.segments,
   dragDampening = 2,
-  openedImageWidth = '500px',
-  openedImageHeight = '500px',
+  openedImageWidth = '350px',
+  openedImageHeight = '350px',
   imageBorderRadius = '30px',
   openedImageBorderRadius = '30px',
   grayscale = false

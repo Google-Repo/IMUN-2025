@@ -14,7 +14,7 @@ export default function AboutUshero() {
               <div className="absolute inset-0 bg-black opacity-80"></div>
               <div className="absolute inset-0 flex items-center justify-center px-4 text-center">
                <BlurText
-  text="ABOUT SVVV IMUN"
+  text="ABOUT SVVVIMUN"
   delay={200}
   animateBy="letters"
   direction="top"
