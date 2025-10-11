@@ -23,20 +23,22 @@ export default function Footer() {
               <li className="hover:text-blue-300 cursor-pointer">Participate</li>
         
           </Link>
+          <Link to={"/photowall"}>
+                              <li className="hover:text-blue-300 whitespace-nowrap cursor-pointer">Photo Wall </li>
+          </Link>
+          
           <Link to={"/Committee"}>
                               <li className="hover:text-blue-300 cursor-pointer">Committee</li>
 
           </Link>
-          <Link to={"/Secretariat"}>
+          {/* <Link to={"/Secretariat"}>
                               <li className="hover:text-blue-300 cursor-pointer">Secretariat</li>
 
-          </Link>
-          <Link to={"/photowall"}>
-                              <li className="hover:text-blue-300 whitespace-nowrap cursor-pointer">Photo Wall </li>
-          </Link>
+          </Link> */}
+          
 
           <Link to={"/contactus"}>
-                    <li className="hover:text-blue-300 cursor-pointer">Contact</li>
+                    <li className="hover:text-blue-300 cursor-pointer">Contact Us</li>
 
           </Link>
         </ul>

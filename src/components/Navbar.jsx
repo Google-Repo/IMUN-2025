@@ -68,18 +68,20 @@ export default function Navbar() {
               Participate
             </Link>
           </li>
-          <li>
-            <Link to="/photowall" className="text-white hover:text-blue-300 text-lg transition">
-              Photo Wall
-            </Link>
-          </li><li>
+         
+          {/* <li>
             <Link to="/participate" className="text-white hover:text-blue-300 text-lg transition">
               Leader Board
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link to="/committee" className="text-white hover:text-blue-300 text-lg transition">
-committee
+            Committee
+            </Link>
+          </li>
+           <li>
+            <Link to="/photowall" className="text-white hover:text-blue-300 text-lg transition">
+              Photo Wall
             </Link>
           </li>
           <li>
@@ -127,9 +129,12 @@ committee
              <li>
               <Link to="/photowall" className="text-white text-3xl" onClick={handleBurgerClick}>Photo Wall</Link>
             </li>
-             <li>
-              <Link to="/participate" className="text-white text-3xl" onClick={handleBurgerClick}>Leader Board</Link>
+            <li>
+              <Link to="/committee" className="text-white text-3xl" onClick={handleBurgerClick}>Committee</Link>
             </li>
+             {/* <li>
+              <Link to="/participate" className="text-white text-3xl" onClick={handleBurgerClick}>Leader Board</Link>
+            </li> */}
             <li>
               <Link to="/contactus" className="text-white text-3xl" onClick={handleBurgerClick}>Contact Us</Link>
             </li>
