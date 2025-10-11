@@ -16,7 +16,7 @@ export default function Footer() {
         <ul className="flex flex-col font-[roboto] md:flex-row justify-center gap-4 md:gap-6 text-lg">
          <Link to="/"><li className="hover:text-blue-300 cursor-pointer">Home</li></Link> 
           <Link to={"/about"}>
-              <li className="hover:text-blue-300 cursor-pointer">About</li>
+              <li className="hover:text-blue-300 cursor-pointer">Abt</li>
           
           </Link>
           <Link to={"/participate"}>
