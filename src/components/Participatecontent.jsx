@@ -12,9 +12,9 @@ export default function Participatecontent() {
                     <ul className="list-disc font-[roboto] ml-5 space-y-2 text-gray-700 text-lg">
                         <li>A delegate may participate in only one committee.</li>
                         <li>Delegates must be available for all three days of the conference (28–30 October, 2025).</li>
-                        <li>The participation fee is ₹1700/- per delegate (Phase-II).</li>
+                        <li>The participation fee is ₹1500/- per delegate (Phase-II).</li>
                         <li>All participants must possess a valid institution/school identity card.</li>
-                        <li>The last date for registration is 20 October, 2025.</li>
+                        <li>The last date for registration is 25 October, 2025.</li>
                     </ul>
                 </div>
 
