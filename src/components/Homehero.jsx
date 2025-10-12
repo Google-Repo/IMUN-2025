@@ -13,7 +13,7 @@ export default function Homehero() {
             delay={200}
             animateBy="letters"
             direction="top"
-            className="text-white  text-center !font-[times]  text-[3.1rem]  leading-none     lg:text-[16rem] md:text-[16rem]"
+            className="text-white  text-center !font-[times]  text-[3.1rem]  leading-none     lg:text-[15rem] md:text-[16rem]"
           />
         </div>
       </div>

@@ -1,7 +1,7 @@
 @import "tailwindcss";
 @font-face {
   font-family: "times";
-  src: url("./fonts/times.ttf");
+  src: url("assets/fonts/times.ttf");
 }
 @font-face {
   font-family: "Antonio";

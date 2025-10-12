@@ -15,7 +15,7 @@ export default function Contactcontent() {
 
                         <div>
                             <p className="text-lg font-semibold text-gray-800">Smriti Mukherjee</p>
-                            <p className="text-gray-600 italic mb-1">Secretary-General</p>
+                            <p className="text-gray-600 italic mb-1">Secretary General</p>
                             <p className="text-gray-700">📧 smriti.mukherjee03@gmail.com</p>
                             <p className="text-gray-700">📞 +91 99931 98924</p>
                         </div>
@@ -23,7 +23,7 @@ export default function Contactcontent() {
 
                         <div>
                             <p className="text-lg font-semibold text-gray-800">Harsh Deshpande</p>
-                            <p className="text-gray-600 italic mb-1">Director-General</p>
+                            <p className="text-gray-600 italic mb-1">Director General</p>
                             <p className="text-gray-700">📧 contact.harsh1807@gmail.com</p>
                             <p className="text-gray-700">📞 +91 74000 38224</p>
                         </div>
