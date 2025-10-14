@@ -38,7 +38,7 @@ export default function Footer() {
           
 
           <Link to={"/contactus"}>
-                    <li className="hover:text-blue-300 cursor-pointer">Contact Us</li>
+                    <li className="hover:text-blue-300 whitespace-nowrap cursor-pointer">Contact Us</li>
 
           </Link>
         </ul>
