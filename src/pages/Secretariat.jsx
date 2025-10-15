@@ -46,7 +46,7 @@ export default function Secretariat() {
       img: "https://res.cloudinary.com/dp9irxc0x/image/upload/v1760550342/Mansi_vwedl7.jpg",
     },
     {
-      name: "kashish Gera",
+      name: "Kashish Gera",
       role: "Director of Content Development",
       img: "https://res.cloudinary.com/dp9irxc0x/image/upload/v1760550353/Kash_mt9foo.jpg",
     },

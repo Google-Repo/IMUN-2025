@@ -48,8 +48,8 @@ const DEFAULT_IMAGES = [
     alt: 'Social media image'
   },
   {
-    src:'https://res.cloudinary.com/dohdiu2s6/image/upload/v1760210533/WhatsApp_Image_2025-10-12_at_12.48.58_AM_j6kb7e.jpg',
-    alt:'IMUN2024'
+    src:'https://res.cloudinary.com/dohdiu2s6/image/upload/v1760289610/DSC02499_kkixmg.jpg',
+    alt:'IMUN2023'
   },
   {
     src:'https://res.cloudinary.com/dohdiu2s6/image/upload/v1760210848/IMG_1103_mulgi4.jpg',
@@ -61,21 +61,21 @@ const DEFAULT_IMAGES = [
   },
   {
     src:'https://res.cloudinary.com/dohdiu2s6/image/upload/v1760210838/IMG_1055_q4e2f1.jpg',
-    alt:'IMUN2024'
+    alt:'Single photo'
   },
   {
     src:'https://res.cloudinary.com/dohdiu2s6/image/upload/v1760210836/IMG_1058_nkr47m.jpg',
-    alt:'IMUN2024'
+    alt:'Single photo'
   },
   {
     src:'https://res.cloudinary.com/dohdiu2s6/image/upload/v1760210826/IMG_0933_jpyt9u.jpg',    
     alt:'IMUN2024'
   },
   {src:'https://res.cloudinary.com/dohdiu2s6/image/upload/v1760211038/DSC02551_nt6rlb.jpg',
-  alt:'IMUN2024'
+  alt:'Single photo'
   },
   {src:'https://res.cloudinary.com/dohdiu2s6/image/upload/v1760210865/WhatsApp_Image_2025-10-12_at_12.55.47_AM_xyxvmn.jpg',
-  alt:'IMUN2024'
+  alt:'Single photo'
   }
   
 ];
