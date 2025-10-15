@@ -96,7 +96,7 @@ export default function Secretariat() {
             <img
               src={faculty[0].img}
               alt={faculty[0].name}
-     className="w-48 h-48 sm:w-56 sm:h-56 md:w-58 md:h-58 object-cover rounded-full border-4 border-white shadow-xl mb-4 
+     className="w-48 h-48 sm:w-56 sm:h-56 md:w-58 md:h-58 object-fit rounded-full border-4 border-white shadow-xl mb-4 
 transition-transform duration-300 hover:scale-105 hover:shadow-gray-600/40"
 
             />
