@@ -6,25 +6,34 @@ const groups = [
     heading: "Faculty",
     sectionBg: "#000000",
     sectionRadius: "18px",
-    height:"h-96",
-    width:"w-66",
+    height: "h-96",
+    width: "w-66",
     text: "#ffffff",
     info: [
-      { name: "Abhi", department: "CSE", src: "https://images.unsplash.com/photo-1760126130338-4e6c9043ee2d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzfHx8ZW58MHx8fHx8&auto=format&fit=crop&q=60&w=600", cardRadius: "32px", text: "#ffffff" },
-      { name: "Rahul", department: "ECE", src: "https://images.unsplash.com/photo-1760126130338-4e6c9043ee2d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzfHx8ZW58MHx8fHx8&auto=format&fit=crop&q=60&w=600", cardRadius: "16px", text: "#ffffff" },
-      { name: "Kiran", department: "ME", src: "https://images.unsplash.com/photo-1760126130338-4e6c9043ee2d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzfHx8ZW58MHx8fHx8&auto=format&fit=crop&q=60&w=600", cardRadius: "25px", text: "#ffffff" }
+      { name: "Dr. Yogesh C. Goswami", department: "Vice Chancellor", src: "", cardRadius: "32px", text: "#ffffff" },
+      { name: "Dr. Saurabh Jain", department: "Faculty Coordinator", src: "", cardRadius: "32px", text: "#ffffff" },
+      { name: "Dr. Anurag Joshi", department: "Faculty Co-Coordinator", src: "./AnuragJoshi.jpg", cardRadius: "32px", text: "#ffffff" }
     ]
   },
   {
     heading: "Generals",
     sectionBg: "#ffffff",
     sectionRadius: "8px",
-    height:"h-56",
-    width:"w-46",
+    height: "h-6x6",
+    width: "w-66",
     text: "#333333",
     info: [
-      { name: "Sneha", department: "ME", src: "https://images.unsplash.com/photo-1760126130338-4e6c9043ee2d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzfHx8ZW58MHx8fHx8&auto=format&fit=crop&q=60&w=600", cardRadius: "10px", text: "#ffffff" },
-      { name: "Amit", department: "EEE", src: "https://images.unsplash.com/photo-1760126130338-4e6c9043ee2d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzfHx8ZW58MHx8fHx8&auto=format&fit=crop&q=60&w=600", cardRadius: "24px", text: "#ffffff" }
+      { name: "Smriti Mukherjee", department: "Secretary General", src: "", cardRadius: "24px", text: "#ffffff" },
+      { name: "Harsh Deshpande", department: "Director General", src: "./Harsh.jpg", cardRadius: "24px", text: "#ffffff" },
+      { name: "Avant Mishra", department: "Convener", src: "", cardRadius: "24px", text: "#ffffff" },
+      { name: "Jayveer Singh Rathore", department: "Treasurer", src: "", cardRadius: "24px", text: "#ffffff" },
+      { name: "Anvisha Trivedi", department: "Deputy Secretary General", src: "", cardRadius: "24px", text: "#ffffff" },
+      { name: "Aditya Gupta", department: "Deputy Director General", src: "", cardRadius: "24px", text: "#ffffff" },
+      { name: "Manan Bhardwaj", department: "Director of Operations", src: "", cardRadius: "24px", text: "#ffffff" },
+      { name: "Harsh Pratap Singh Thakur", department: "Director of Logistics", src: "", cardRadius: "24px", text: "#ffffff" },
+      { name: "Kashish Gera", department: "Director of Content Development", src: "", cardRadius: "24px", text: "#ffffff" },
+      { name: "Mansi Sharma", department: "Director of Creative Strategy", src: "", cardRadius: "24px", text: "#ffffff" },
+      { name: "Ayush Singh", department: "Director of Delegate Affairs", src: "", cardRadius: "24px", text: "#ffffff" }
     ]
   }
 ];
@@ -47,7 +56,6 @@ const Container = ({ data = groups }) => {
               >
                 {group.heading}
               </h2>
-
               <div className="w-full flex gap-10 flex-wrap justify-center">
                 {people.map((person, i) => (
                   <DirectionAwareHover
@@ -58,7 +66,6 @@ const Container = ({ data = groups }) => {
                     childrenClassName="text-sm"
                     height={group.height}
                     width={group.width}
-                    
                   >
                     <div className="px-4 py-2">
                       <h3 className="text-base font-semibold" style={{ color: person.text }}>
