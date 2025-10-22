@@ -15,11 +15,7 @@ const DEFAULT_IMAGES = [
     src: 'https://res.cloudinary.com/dohdiu2s6/image/upload/v1759691918/IMG_4141_da4q7g.jpg',
     alt: 'IMUN2024'
   },
-  {
-    src: 'https://res.cloudinary.com/dohdiu2s6/image/upload/v1759691917/IMG_9595_clxz4v.jpg',
-    alt: 'IMUN2024'
-  },
-  {
+    {
     src: 'https://res.cloudinary.com/dohdiu2s6/image/upload/v1759691918/IMG_4141_da4q7g.jpg',
     alt: 'IMUN2024'
   },
@@ -60,22 +56,28 @@ const DEFAULT_IMAGES = [
     alt:'IMUN2024'
   },
   {
-    src:'https://res.cloudinary.com/dohdiu2s6/image/upload/v1760210838/IMG_1055_q4e2f1.jpg',
+    src:'https://res.cloudinary.com/dohdiu2s6/image/upload/v1759691915/DSC01619_ooyp7w.jpg',
     alt:'Single photo'
   },
   {
-    src:'https://res.cloudinary.com/dohdiu2s6/image/upload/v1760210836/IMG_1058_nkr47m.jpg',
+    src:'https://res.cloudinary.com/dohdiu2s6/image/upload/v1761108354/DSC02457_y5gxak.jpg',
     alt:'Single photo'
   },
   {
     src:'https://res.cloudinary.com/dohdiu2s6/image/upload/v1760210826/IMG_0933_jpyt9u.jpg',    
     alt:'IMUN2024'
   },
-  {src:'https://res.cloudinary.com/dohdiu2s6/image/upload/v1760211038/DSC02551_nt6rlb.jpg',
+  {src:'https://res.cloudinary.com/dohdiu2s6/image/upload/v1761108481/IMG_20241112_114239820_HDR_AE_rbr8y5.jpg',
   alt:'Single photo'
   },
-  {src:'https://res.cloudinary.com/dohdiu2s6/image/upload/v1760210865/WhatsApp_Image_2025-10-12_at_12.55.47_AM_xyxvmn.jpg',
+  {src:'https://res.cloudinary.com/dohdiu2s6/image/upload/v1756453125/college_cftjbb.jpg',
   alt:'Single photo'
+  },
+  {src:'https://res.cloudinary.com/dohdiu2s6/image/upload/v1761109575/DSC02536_mypnko.jpg',
+  alt:'IMUN-2024'
+  },
+  {src:'https://res.cloudinary.com/dohdiu2s6/image/upload/v1761109669/DSC02538_efucwk.jpg',
+  alt:'IMUN-2024'
   }
   
 ];
