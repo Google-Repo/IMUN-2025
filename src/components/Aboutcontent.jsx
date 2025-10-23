@@ -5,8 +5,7 @@ import logo from '../assets/logo.png'
 export default function Aboutcontent() {
   return (
     <div>
-      <section className="bg-white px-6  py-10 space-y-10">
-
+      <section className="bg-white px-6 py-10 space-y-10 font-sans"> {/* Added font-sans here */}
 
         <div className="relative w-full py-16 overflow-hidden">
 
@@ -18,9 +17,8 @@ export default function Aboutcontent() {
             />
           </div>
 
-
           <div className="relative z-10 max-w-5xl mx-auto text-center px-4">
-            <h2 className="text-4xl  font-extrabold text-gray-800 mb-8 border-b-4 inline-block border-black-400 pb-2">
+            <h2 className="text-4xl font-extrabold text-gray-800 mb-8 border-b-4 inline-block border-black-400 pb-2">
               Why SVVV International MUN?
             </h2>
 
@@ -52,9 +50,8 @@ export default function Aboutcontent() {
           </div>
         </div>
 
-
         <div className="text-center max-w-4xl mx-auto">
-          <h2 className="text-4xl  font-extrabold text-gray-800 mb-6 border-b-4 inline-block border-black-400 pb-2">
+          <h2 className="text-4xl font-extrabold text-gray-800 mb-6 border-b-4 inline-block border-black-400 pb-2">
             Our Motto
           </h2>
           <p className="text-xl italic text-gray-700">
@@ -62,16 +59,15 @@ export default function Aboutcontent() {
           </p>
         </div>
 
-
         <div className="relative w-full py-10 overflow-hidden">
           <div className="absolute inset-0 flex justify-center items-center">
             <img
               src={logo}
               alt="Hero Watermark"
-              className="h-62 w-auto opacity-25 "
+              className="h-62 w-auto opacity-25"
             />
           </div>
-          <div className="  relative z-10 max-w-5xl mx-auto text-center px-4">
+          <div className="relative z-10 max-w-5xl mx-auto text-center px-4">
             <h2 className="text-4xl font-extrabold text-gray-800 mb-6 border-b-4 inline-block border-black-400 pb-2">
               About Shri Vaishnav Vidyapeeth Vishwavidyalaya (SVVV)
             </h2>

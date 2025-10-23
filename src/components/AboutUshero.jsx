@@ -1,7 +1,7 @@
 import React from 'react'
 import BlurText from "./BlurText";
-
 import about from '../assets/about.jpg'
+
 export default function AboutUshero() {
   return (
     <div>
@@ -18,7 +18,7 @@ export default function AboutUshero() {
             delay={200}
             animateBy="letters"
             direction="top"
-            className='text-white  text-center !font-[times]   text-[2.1rem]  leading-none     lg:text-[9rem] md:text-[10rem]'
+            className='text-white text-center font-sans text-[2.1rem] leading-none lg:text-[9rem] md:text-[10rem]'
           />
         </div>
       </div>

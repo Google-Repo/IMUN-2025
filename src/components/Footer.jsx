@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return (
-    <footer className="bg-[#4B352A] text-white py-8">
+    <footer className="bg-[#4B352A] text-white py-8 font-sans"> {/* Added font-sans here */}
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 items-center text-center md:text-left">
         
         {/* Logo */}
@@ -13,38 +13,14 @@ export default function Footer() {
         </div>
 
         {/* Links */}
-        <ul className="flex flex-col font-[roboto] md:flex-row justify-center gap-4 md:gap-6 text-lg">
-         <Link to="/"><li className="hover:text-blue-300 cursor-pointer">Home</li></Link> 
-          <Link to={"/about"}>
-              <li className="hover:text-blue-300 cursor-pointer">About</li>
-          
-          </Link>
-          <Link to={"/participate"}>
-              <li className="hover:text-blue-300 cursor-pointer">Participate</li>
-        
-          </Link>
-          <Link to={"/photowall"}>
-                              <li className="hover:text-blue-300 whitespace-nowrap cursor-pointer">Photo Wall </li>
-          </Link>
-          
-          <Link to={"/Committee"}>
-                              <li className="hover:text-blue-300 cursor-pointer">Committee</li>
-
-          </Link>
-           <Link to={"/Secretariat"}>
-                              <li className="hover:text-blue-300 cursor-pointer">Secretariat</li>
-
-          </Link>
-          {/* <Link to={"/Secretariat"}>
-                              <li className="hover:text-blue-300 cursor-pointer">Secretariat</li>
-
-          </Link> */}
-          
-
-          <Link to={"/contactus"}>
-                    <li className="hover:text-blue-300 whitespace-nowrap cursor-pointer">Contact Us</li>
-
-          </Link>
+        <ul className="flex flex-col md:flex-row justify-center gap-4 md:gap-6 text-lg">
+          <Link to="/"><li className="hover:text-blue-300 cursor-pointer">Home</li></Link> 
+          <Link to="/about"><li className="hover:text-blue-300 cursor-pointer">About</li></Link>
+          <Link to="/participate"><li className="hover:text-blue-300 cursor-pointer">Participate</li></Link>
+          <Link to="/photowall"><li className="hover:text-blue-300 whitespace-nowrap cursor-pointer">Photo Wall</li></Link>
+          <Link to="/Committee"><li className="hover:text-blue-300 cursor-pointer">Committee</li></Link>
+          <Link to="/Secretariat"><li className="hover:text-blue-300 cursor-pointer">Secretariat</li></Link>
+          <Link to="/contactus"><li className="hover:text-blue-300 whitespace-nowrap cursor-pointer">Contact Us</li></Link>
         </ul>
 
         {/* Copyright */}

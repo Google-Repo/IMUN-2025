@@ -3,18 +3,17 @@ import React from 'react'
 export default function Homeextras() {
   return (
     <div>
-      <section className="bg-gray-50  md:py-16 px-6">
+      <section className="bg-gray-50 md:py-16 px-6 font-sans"> {/* Added font-sans here */}
         <div className="flex flex-col md:flex-row md:justify-between md:items-stretch mb-10 lg:mb-none md:mb-none gap-8 max-w-6xl mx-auto">
 
-
           <div className="bg-white shadow-xl rounded-2xl p-8 w-full md:w-1/2 flex flex-col justify-center transition-all duration-300 hover:shadow-2xl">
-            <h2 className="text-3xl !font-[roboto] font-extrabold text-gray-900 mb-3">📍 Location</h2>
+            <h2 className="text-3xl font-extrabold text-gray-900 mb-3">📍 Location</h2>
             <p className="text-gray-600 text-base mb-6">
               Get directions to our event center
             </p>
 
-            <div className="border-t border-gray-200  pt-4">
-              <h3 className="text-xl font-semibold !font-[roboto] text-gray-800 mb-1">Address</h3>
+            <div className="border-t border-gray-200 pt-4">
+              <h3 className="text-xl font-semibold text-gray-800 mb-1">Address</h3>
               <p className="text-gray-700 leading-relaxed">
                 Indore-Ujjain Road, Gram Baroli, Indore <br />
                 Madhya Pradesh, India
@@ -22,7 +21,7 @@ export default function Homeextras() {
             </div>
 
             <div className="border-t border-gray-200 pt-4 mt-4">
-              <h3 className="text-xl font-semibold text-gray-800 !font-[roboto] mb-1">Phone</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-1">Phone</h3>
               <div className="space-y-1 text-gray-700">
                 <p>+91 99931 98924</p>
                 <p>+91 74000 38224</p>
@@ -30,11 +29,10 @@ export default function Homeextras() {
             </div>
 
             <div className="border-t border-gray-200 pt-4 mt-4">
-              <h3 className="text-xl font-semibold text-gray-800 mb-1 !font-[roboto]">Email</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-1">Email</h3>
               <p className="text-gray-700">svvvimun9.0@gmail.com</p>
             </div>
           </div>
-
 
           <div className="w-full md:w-1/2 flex justify-center items-center">
             <iframe

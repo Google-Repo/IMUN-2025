@@ -5,18 +5,16 @@ import BlurText from "./BlurText";
 export default function Homehero() {
   return (
     <div>
-      <div className="relative h-screen  w-full">
+      <div className="relative h-screen w-full">
         <img src={img2} alt="Hero" className="h-full w-full object-cover" />
-        <div className="absolute inset-0 flex items-center justify-center backdrop-blur-xs bg-black/40 bg-opacity-60 ">
+        <div className="absolute inset-0 flex items-center justify-center backdrop-blur-xs bg-black/40 bg-opacity-60">
 
-          
           <BlurText
             text="SVVV IMUN"
             delay={200}
             animateBy="letters"
             direction="top"
-            className="text-white  text-center !font-[times]  text-[3.1rem]  leading-none     lg:text-[15rem] md:text-[16rem]"
-            
+            className="text-white text-center text-[3.1rem] leading-none lg:text-[15rem] md:text-[16rem] font-sans" // Changed font to Montserrat
           />
         </div>
       </div>
